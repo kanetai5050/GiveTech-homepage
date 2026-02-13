@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社GiveTech | AI受託開発・コンサルティング</title>
+    <meta name="description" content="株式会社GiveTechは、AIの受託開発、研修、コンサルティングを通じて、法人のあらゆるAI課題を解決します。代表取締役：兼子太吾">
+    <link rel="icon" href="assets/favicon_new.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="logo">
+                <img src="assets/logo_v2.png" alt="GiveTech Logo" class="logo__img" id="logo-img">
+                <!-- Fallback text if image missing or loading -->
+                <span class="logo__text" style="display:none;">GiveTech</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#company" class="nav__link">Company</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link button button--primary">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span class="mobile-menu-btn__line"></span>
+                <span class="mobile-menu-btn__line"></span>
+                <span class="mobile-menu-btn__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        AIの力で、<br>
+                        未来を<span class="text-gradient">実装</span>する。
+                    </h1>
+                    <p class="hero__subtitle">
+                        AI受託開発・コンサルティング・人材育成。<br>
+                        企業の抱えるあらゆるAI課題をGiveTechが解決します。
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#contact" class="button button--primary button--large">お問い合わせ</a>
+                        <a href="#services" class="button button--secondary button--large">サービス一覧</a>
+                    </div>
+                </div>
+                <div class="hero__visual">
+                    <canvas id="hero-canvas"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section__title">Mission</h2>
+                <div class="about__content">
+                    <h3 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; font-weight: 700;">人々に、実りある時間を。
+                    </h3>
+                    <p class="about__text">
+                        デジタル化の遅れや業務の非効率さといった課題を抱える企業に対し、<br>
+                        AI・ITを活用した生産性の高い仕組みづくりを支援することで、<br>
+                        事業の成長と新たな価値創出に貢献します。<br>
+                        <br>
+                        また、採用支援事業を通じて、<br>
+                        一人ひとりがより「実りある時間」を過ごせる社会の実現を目指し、<br>
+                        キャリア形成と人生の充実を長期的な視点でサポートします。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services">
+            <div class="container">
+                <h2 class="section__title">Services</h2>
+                <div class="services__grid">
+                    <article class="service-card">
+                        <div class="service-card__icon">🤖</div>
+                        <h3 class="service-card__title">AI受託開発</h3>
+                        <p class="service-card__desc">
+                            課題のヒアリングからモデル選定、開発、導入まで一気通貫でサポート。<br>
+                            LLM（大規模言語モデル）活用や画像認識など、幅広いニーズに対応します。
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon">🎓</div>
+                        <h3 class="service-card__title">AI研修・コンサルティング</h3>
+                        <p class="service-card__desc">
+                            社内エンジニアのAIスキル向上や、非エンジニア向けのAI活用研修を実施。<br>
+                            組織全体のAIリテラシー底上げを支援します。
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon">🤝</div>
+                        <h3 class="service-card__title">採用支援</h3>
+                        <p class="service-card__desc">
+                            新卒・インターン生の採用を強力にバックアップ。<br>
+                            働く人が「実りある時間」を過ごせる最適な環境とのマッチングを創出します。<br>
+                            ※IT・AI業界に限らず幅広く対応いたします。
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Section -->
+        <section id="company" class="section company">
+            <div class="container">
+                <h2 class="section__title">Company</h2>
+                <dl class="company__info">
+                    <div class="company__row">
+                        <dt>会社名</dt>
+                        <dd>株式会社GiveTech</dd>
+                    </div>
+                    <div class="company__row">
+                        <dt>代表取締役</dt>
+                        <dd>兼子 太吾</dd>
+                    </div>
+                    <div class="company__row">
+                        <dt>事業内容</dt>
+                        <dd>
+                            AI受託開発事業<br>
+                            AI研修・コンサルティング事業<br>
+                            新卒・インターン採用支援事業
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section__title">Contact</h2>
+                <p class="contact__desc">AIに関するご相談、お仕事のご依頼など、お気軽にお問い合わせください。</p>
+                <form class="contact__form"
+                    onsubmit="event.preventDefault(); window.location.href = 'mailto:kane_tai@keio.jp?subject=お問い合わせ: ' + encodeURIComponent(document.getElementById('name').value) + '&body=' + encodeURIComponent(document.getElementById('message').value);">
+                    <div class="form-group">
+                        <label for="name">お名前</label>
+                        <input type="text" id="name" name="name" required placeholder="山田 太郎">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">メールアドレス</label>
+                        <input type="email" id="email" name="email" required placeholder="info@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">お問い合わせ内容</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="ご相談内容をご記入ください"></textarea>
+                    </div>
+                    <button type="submit" class="button button--primary button--full">送信する</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <p class="footer__copyright">&copy; 2024 GiveTech, Inc. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
